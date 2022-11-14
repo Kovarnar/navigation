@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive navigation</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="visually-hidden">for SEO</h1>
+    <div class="wrapper">
+        <aside class="aside">
+            <h2 class="visually-hidden">for SEO</h2>
+            <div class="aside__container">
+                <button class="aside__button" aria-label="open-close button">
+                    <svg class="icon">
+                        <use xlink:href="./img/sprite.svg#vector"></use>
+                    </svg>
+                </button>
+                <a class="aside__logo" href="#">
+                    <img src="./img/logo.svg" alt="logo" width="32" height="32">
+                </a>
+                <nav class="aside__nav nav">
+                    <h3 class="visually-hidden">for SEO</h3>
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">
+                                <svg class="icon">
+                                    <use xlink:href="./img/sprite.svg#dashboard"></use>
+                                </svg>
+                                <span class="nav__text">Dashboard</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="nav__decor decor">
+                        <span class="decor__line"></span>
+                        <span class="decor__line decor__line--long"></span>
+                        <span class="decor__line"></span>
+                    </div>
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">
+                                <span class="nav__link-count nav__link-count--green">25</span>
+                                <svg class="icon icon--green">
+                                    <use xlink:href="./img/sprite.svg#mail"></use>
+                                </svg>
+                                <span class="nav__text">Email</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">
+                                <span class="nav__link-count nav__link-count--red">10</span>
+                                <svg class="icon icon--red">
+                                    <use xlink:href="./img/sprite.svg#bubble"></use>
+                                </svg>
+                                <span class="nav__text">Chats</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">
+                                <span class="nav__link-count nav__link-count--yellow">5</span>
+                                <svg class="icon icon--yellow">
+                                    <use xlink:href="./img/sprite.svg#calendar"></use>
+                                </svg>
+                                <span class="nav__text">Calendar</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">
+                                <svg class="icon">
+                                    <use xlink:href="./img/sprite.svg#news"></use>
+                                </svg>
+                                <span class="nav__text">News</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">
+                                <svg class="icon">
+                                    <use xlink:href="./img/sprite.svg#study"></use>
+                                </svg>
+                                <span class="nav__text">Knowledge</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">
+                                <svg class="icon">
+                                    <use xlink:href="./img/sprite.svg#stack"></use>
+                                </svg>
+                                <span class="nav__text">File manager</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">
+                                <svg class="icon">
+                                    <use xlink:href="./img/sprite.svg#location"></use>
+                                </svg>
+                                <span class="nav__text">Leaflet Maps</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <main class="main">
+            <div class="main__container">
+                <div class="main__header">
+                    <nav class="main__navig navig">
+                        <h3 class="visually-hidden">for SEO</h3>
+                        <ul class="navig__list">
+                            <li class="navig__item">
+                                <a class="navig__link" href="#" aria-label="email">
+                                    <svg class="icon">
+                                        <use xlink:href="./img/sprite.svg#mail"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="navig__item">
+                                <a class="navig__link" href="#" aria-label="chats">
+                                    <svg class="icon">
+                                        <use xlink:href="./img/sprite.svg#bubble"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="navig__item">
+                                <a class="navig__link" href="#" aria-label="calendar">
+                                    <svg class="icon">
+                                        <use xlink:href="./img/sprite.svg#calendar"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="navig__item">
+                                <a class="navig__link" href="#" aria-label="rating">
+                                    <svg class="icon">
+                                        <use xlink:href="./img/sprite.svg#star"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="main__wrapper">
+                        <a class="main__languege">
+                            <img src="./img/lang-icon.svg" alt="English languege">
+                            <span>English</span>
+                        </a>
+                        <nav class="main__navig navig">
+                            <h3 class="visually-hidden">for SEO</h3>
+                            <ul class="navig__list">
+                                <li class="navig__item">
+                                    <a class="navig__link" href="#" aria-label="change-theme">
+                                        <svg class="icon">
+                                            <use xlink:href="./img/sprite.svg#change-theme"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="navig__item">
+                                    <a class="navig__link" href="#" aria-label="search">
+                                        <svg class="icon">
+                                            <use xlink:href="./img/sprite.svg#search"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="navig__item">
+                                    <a class="navig__link" href="#" aria-label="set">
+                                        <svg class="icon">
+                                            <use xlink:href="./img/sprite.svg#set"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="main__avatar">
+                            <img class="main__photo" src="./img/image.svg" alt="avatar">
+                            <span class="main__status"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__content">
+                    <img src="./img/bg-dark.webp" alt="content">
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

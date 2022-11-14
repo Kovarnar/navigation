@@ -1,0 +1,21 @@
+.navig{
+
+    &__list {
+        @include flex;
+        column-gap: 20px;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 26px;
+        height: 26px;
+        font-size: 0;
+    }
+    
+    .icon {
+        width: 26px;
+        height: 26px;
+    }
+}

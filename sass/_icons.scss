@@ -1,0 +1,7 @@
+.icon {
+    fill: $grayLight;
+    transition: fill .3s ease;
+    &:hover, &:active {
+        fill: $whiteColor;
+    }
+}

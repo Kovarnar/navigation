@@ -1,0 +1,68 @@
+.main {
+    background-color: $blueDarken;
+
+    &__container {
+        padding: 30px 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px 1fr;
+        row-gap: 44px;
+    }
+
+    &__header {
+        padding: 10px 20px;
+        margin: 0 80px;
+        display: flex;
+        justify-content: space-between;
+        column-gap: 50px;
+        align-items: center;
+        background-color: $blueDark;
+        border-radius: 10px;
+    }
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        column-gap: 50px;
+    }
+
+    &__languege {
+        @include flex;
+        column-gap: 20px;
+        span {
+            font-family: $montserratFont;
+            font-size: rem(18px);
+            font-weight: 400;
+            color: $grayLight;
+        }
+    }
+
+    &__avatar {
+        position: relative;
+        width: 36px;
+        height: 36px;
+        img {
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        span {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: 1;
+            width: 10px;
+            height: 10px;
+            background-color: $green;
+            border: 1px solid $whiteColor;
+            border-radius: 50%;
+        }
+    }
+
+    &__content {
+        padding: 30px;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

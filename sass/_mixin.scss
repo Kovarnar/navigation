@@ -1,0 +1,9 @@
+@function rem($target) {
+    @return ($target/$baseFontSize) * 1rem;
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
