@@ -184,6 +184,9 @@ img {
 .aside--short .nav__text {
   display: none;
 }
+.aside--short .nav__decor {
+  padding: 6px 20px;
+}
 
 .nav__link {
   position: relative;
